@@ -1,0 +1,35 @@
+{
+  "name": "@citation-js/plugin-schema.org",
+  "version": "0.0.0",
+  "description": "Schema.org plugin for Citation.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha -r @babel/register -R spec test/suite.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/citation-js/linked-data/tree/main/packages/plugin-schema.org"
+  },
+  "keywords": [
+    "schema.org",
+    "linked",
+    "data",
+    "microdata",
+    "citation-js"
+  ],
+  "author": "Lars Willighagen",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "/lib",
+    "/lib-mjs"
+  ],
+  "devDependencies": {
+    "@citation-js/core": "^0.5.0-alpha.10"
+  },
+  "peerDependencies": {
+    "@citation-js/core": "^0.5.0-alpha.10"
+  }
+}
