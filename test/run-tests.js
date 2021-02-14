@@ -10,8 +10,6 @@ const test = spawn('lerna', [
   'test',
   '--no-bail',
   '--stream',
-  '--ignore',
-  '*/cli',
   ...lernaArgs,
   '--',
   '--',
